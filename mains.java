@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class mains{
     public static void main(String[] args)
     {
-        try (Scanner sc = new Scanner(System.in)) {
+        Scanner sc = new Scanner(System.in);
             System.out.println("Enter your name: ");
             String name = sc.nextLine();
             
@@ -12,6 +12,6 @@ public class mains{
             
             System.out.println("Hello " + name);
             System.out.println("Your age is " + age);
-        }
+        
     }
 }
