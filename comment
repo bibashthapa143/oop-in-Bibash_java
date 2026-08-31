@@ -1,9 +1,0 @@
-public class comment{
-    public static void main(String[] args)
-    {
-        /* this is multi line 
-        comment */
-        //this is single line comment 
-        
-    }
-}
