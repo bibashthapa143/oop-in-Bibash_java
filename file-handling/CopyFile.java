@@ -17,6 +17,8 @@ public class CopyFile {
                 out.write(c);
             }
 
+            System.out.println("File copied successfully!");
+
         } finally {
 
             if (in != null) {
