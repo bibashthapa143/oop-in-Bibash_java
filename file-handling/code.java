@@ -10,8 +10,7 @@ public class code {
 
         // Write into the file
         FileWriter writer = new FileWriter(file, true);
-        writer.write("Thank you");
-        writer.close();
+        writer.write("Thank you");        writer.close();
 
         // Read the file
         Scanner sc = new Scanner(file);
